@@ -1,3 +1,14 @@
+" mkdir ~/.config/nvim
+" #vim (~/.vim/autoload)
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"
+" # Neovim (~/.local/share/nvim/site/autoload)
+" curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+"     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"
+" mkdir ~/.config/nvim/colors
+
 colorscheme wildcharm 
 
 set relativenumber
