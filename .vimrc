@@ -1,13 +1,13 @@
-" mkdir ~/.config/nvim
-" #vim (~/.vim/autoload)
+" # Vim (~/.vim/autoload)
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 "     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 "
-" # Neovim (~/.local/share/nvim/site/autoload)
-" curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-"     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-"
+" mkdir ~/.config/nvim
 " mkdir ~/.config/nvim/colors
+" # Neovim (~/.local/share/nvim/site/autoload)
+" sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+"       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+"
 
 colorscheme wildcharm 
 
